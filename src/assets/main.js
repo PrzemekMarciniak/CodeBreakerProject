@@ -19,3 +19,7 @@ function setHiddenFields () {
 		attempt.value = "0";
 
 }
+
+function setMessage () {
+	document.getElementById('answer').innerHTML = message;
+}
